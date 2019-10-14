@@ -51,6 +51,11 @@ h2, h3, h4, h5, h6, p {
   font-size: 49px;
 }
 
+.wrapper {
+  min-width: 1140px;
+  overflow: hidden;
+}
+
 /* HEADER */
 .header {
   background-color: #4b73b5;
