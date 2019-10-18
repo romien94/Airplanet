@@ -1,16 +1,16 @@
 @font-face {
+  font-family: 'robotolight';
+  src: url("/fonts/roboto-light_1-webfont.woff") format("woff2"), url("/fonts/roboto-light_1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'robotobold';
   src: url("/fonts/roboto-bold_1-webfont.woff") format("woff2"), url("/fonts/roboto-bold_1-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
-  
-@font-face {
-  font-family: 'robotolight';
-  src: url("/fonts/roboto-light_1-webfont.woff") format("woff2"), url("/fonts/roboto-light_1-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  }
   
 @font-face {
   font-family: 'robotolight_italic';

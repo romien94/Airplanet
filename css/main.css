@@ -3,6 +3,8 @@
 @import url("layout/base.css");
 
 @import url("block/header.css");
+@import url("block/logo.css");
+@import url("block/contacts.css");
 @import url("block/content.css");
 @import url("block/rates.css");
 @import url("block/news.css");

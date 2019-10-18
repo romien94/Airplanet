@@ -1,14 +1,14 @@
 .copyright {
-    color: white;
-    font-size: 14px;
-    width: 236px;
-  }
+  color: white;
+  font-size: 14px;
+  width: 236px;
+}
   
-  .copyright__link {
-    color: inherit;
-    text-decoration: none;
-    font-family: robotobold, Arial, sans-serif;
-  }
+.copyright__link {
+  color: inherit;
+  text-decoration: none;
+  font-family: robotobold, Arial, sans-serif;
+}
   
   .copyright__link--underlined {
     text-decoration: underline;

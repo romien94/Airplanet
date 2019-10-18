@@ -3,18 +3,9 @@
 }
 
 .header__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  height: 76px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  padding: 0 20px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 13px;
 }

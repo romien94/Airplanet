@@ -1,64 +1,61 @@
 .contacts {
-    font-family: robotobold, Arial, sans-serif;
-    text-align: right;
-  }
+  font-family: robotobold, Arial, sans-serif;
+  text-align: right;
+}
   
-  .contacts__phone {
-    color: white;
-    font-size: 21px;
-    text-decoration: none;
-  }
+.contacts__phone {
+  color: white;
+  font-size: 21px;
+  text-decoration: none;
+  font-weight: bold;
+}
   
-  .contacts__hours-title {
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    opacity: .7;
-  }
+.contacts__hours-title {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: .7;
+}
   
-  .contacts__hours {
-    position: relative;
-    font-family: robotolight, Arial, sans-serif;
-    font-size: 14px;
-  }
+.contacts__hours {
+  position: relative;
+  font-family: robotolight, Arial, sans-serif;
+  font-size: 14px;
+}
   
-  .contacts__list {
-    display: none;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 18px 20px;
-    position: absolute;
-    text-align-last: left;
-    width: 164px;
-    background-color: white;
-    border-radius: 3px;
-    -webkit-box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
-            box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
-    right: 0;
-    bottom: -88px;
-  }
+.contacts__list {
+  display: none;
+  flex-direction: column;
+  padding: 18px 20px;
+  position: absolute;
+  text-align-last: left;
+  width: 164px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
+  right: 0;
+  bottom: -88px;
+}
   
-  .contacts__hours:hover .contacts__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
+.contacts__hours:hover .contacts__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
   
-  .contacts__list:after {
-    content: "";
-    position: absolute;
-    top: -21px;
-    right: 2px;
-    border: 10px solid transparent;
-    border-bottom: 10px solid white;
-  }
+.contacts__list:after {
+  content: "";
+  position: absolute;
+  top: -21px;
+  right: 2px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
   
-  .contacts__item--bold {
-    font-family: robotobold, Arial, sans-serif;
-  }
+.contacts__item--bold {
+  font-family: robotobold, Arial, sans-serif;
+}
   
-  .contacts__item--blue {
-    color: #1c5bc3;
-  }
+.contacts__item--blue {
+  color: #1c5bc3;
+}
