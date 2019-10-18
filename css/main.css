@@ -1,13 +1,14 @@
-@import url("/css/layout/normalize.css");
-@import url("/css/layout/fonts.css");
-@import url("/css/layout/base.css");
+@import url("layout/normalize.css");
+@import url("layout/fonts.css");
+@import url("layout/base.css");
 
-@import url("/css/block/header.css");
-@import url("/css/block/content.css");
-@import url("/css/block/rates.css");
-@import url("/css/block/news.css");
-@import url("/css/block/pagination.css");
-@import url("/css/block/aside.css");
-@import url("/css/block/footer.css");
-@import url("/css/block/copyright.css");
-@import url("/css/block/socials.css");
+@import url("block/header.css");
+@import url("block/content.css");
+@import url("block/rates.css");
+@import url("block/news.css");
+@import url("block/pagination.css");
+@import url("block/aside.css");
+@import url("block/footer.css");
+@import url("block/copyright.css");
+@import url("block/socials.css");
+/*# sourceMappingURL=main.css.map */
