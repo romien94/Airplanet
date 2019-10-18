@@ -1,0 +1,73 @@
+.aside {
+    padding-top: 32px;
+    padding-left: 20px;
+    margin-right: 75px;
+  }
+  
+  .aside__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: robotobold, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  .aside__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 28px;
+  }
+  
+  .aside__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #4b73b5;
+    text-decoration: none;
+    letter-spacing: 2.4px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .aside__link:hover,
+  .aside__link--main {
+    color: black;
+  }
+  
+  .aside__link:before {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: center center / contain no-repeat;
+    margin-right: 15px;
+  }
+  
+  .aside__link--main:before {
+    background-image: url("/Airplanet/images/aside/main.png");
+  }
+  
+  .aside__link--feed:before {
+    background-image: url("/Airplanet/images/aside/feed.png");
+  }
+  
+  .aside__link--feed:hover:before {
+    background-image: url("/Airplanet/images/aside/feed--hover.png");
+  }
+  
+  .aside__link--crew:before {
+    background-image: url("/Airplanet/images/aside/crew.png");
+  }
+  
+  .aside__link--crew:hover:before {
+    background-image: url("/Airplanet/images/aside/crew--hover.png");
+  }

@@ -1,0 +1,114 @@
+.rates {
+    margin-bottom: 48px;
+  }
+  
+  .rates .title {
+    margin-bottom: 27px;
+  }
+  
+  .rates__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .rates__item {
+    width: 248px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 40px 21px;
+    margin-right: 20px;
+  }
+  
+  .rates__item:hover {
+    border-color: #e8e9ed;
+  }
+  
+  .rates__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background-color: #4b73b5;
+    border-radius: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 35px;
+  }
+  
+  .rates__title {
+    font-size: 11px;
+    font-family: robotobold, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.64px;
+    margin-bottom: 21px;
+  }
+  
+  .rates__description {
+    text-align: center;
+    line-height: 1.67;
+    margin-bottom: 8px;
+  }
+  
+  .rates__features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 21px;
+  }
+  
+  .rates__features-item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .rates__features-item:before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 25px;
+    left: -20px;
+  }
+  
+  .rates__features-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .rates__price {
+    font-size: 54px;
+  }
+  
+  .rates__currency {
+    font-size: 30px;
+  }
