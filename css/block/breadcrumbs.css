@@ -1,0 +1,19 @@
+.breadcrumbs {
+  display: flex;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.breadcrumbs--italic {
+  font-style: italic;
+}
+
+.breadcrumbs__item:not(:last-child):after {
+  content: "/";
+  margin-right: 3px;
+}
+
+.breadcrumbs__link {
+  color: #1c5bc3;  
+}

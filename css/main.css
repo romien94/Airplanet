@@ -6,10 +6,16 @@
 @import url("block/logo.css");
 @import url("block/contacts.css");
 @import url("block/content.css");
+@import url("block/main_section.css");
+@import url("block/intro.css");
+@import url("block/breadcrumbs.css");
 @import url("block/rates.css");
 @import url("block/news.css");
+@import url("block/reviews.css");
 @import url("block/pagination.css");
+@import url("block/booking.css");
 @import url("block/aside.css");
+@import url("block/form.css");
 @import url("block/footer.css");
 @import url("block/copyright.css");
 @import url("block/socials.css");

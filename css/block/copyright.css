@@ -3,13 +3,14 @@
   font-size: 14px;
   width: 236px;
 }
-  
+
 .copyright__link {
   color: inherit;
   text-decoration: none;
-  font-family: robotobold, Arial, sans-serif;
+  font-family: 'roboto';
+  font-weight: bold;
 }
-  
-  .copyright__link--underlined {
-    text-decoration: underline;
-  }
+
+.copyright__link--underlined {
+  text-decoration: underline;
+}

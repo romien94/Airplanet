@@ -7,9 +7,11 @@ html, body {
 }
 
 body {
-  font-family: robotolight, Arial, sans-serif;
+  font-family: 'roboto';
   font-size: 18px;
-  color: #584a4a;
+  font-weight: 300;
+  color: black;
+  font-weight: normal;
 }
 
 ul, li {
@@ -29,9 +31,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .title {
-  font-family: 'robotobold', Arial, sans-serif;
+  font-family: 'roboto';
   font-size: 49px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .wrapper {

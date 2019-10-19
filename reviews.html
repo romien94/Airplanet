@@ -1,200 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=1100, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1100, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Главная страница Airplanet</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="container header__container">
-                <a href="" class="logo">
-                    <img src="images/logo/main.png" width="120px" height="36px" alt="Логотип Airplanet" class="logo__image">
-                </a>
-                <div class="contacts">
-                    <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-                    <div class="contacts__hours">
-                        <a href="" class="contacts__hours-title">График работы</a>
-                        <ul class="contacts__list">
-                            <li class="contacts__item contacts__item--bold contacts__item--blue">пн-вс: 09:00-20:00</li>
-                            <li class="contacts__item">обед: 14:00-14:30</li>
-                        </ul>
-                    </div>
-                </div>
+      <header class="header header--inner-page">
+        <div class="container header__container">
+          <a href="" class="logo">
+            <img
+              src="images/logo/main.png"
+              width="120px"
+              height="36px"
+              alt="Логотип Airplanet"
+              class="logo__image"
+            />
+          </a>
+          <div class="contacts">
+            <a href="tel:+78000039210" class="contacts__phone"
+              >8 (800) 00-392-10</a
+            >
+            <div class="contacts__hours">
+              <a href="" class="contacts__hours-title">График работы</a>
+              <ul class="contacts__list">
+                <li
+                  class="contacts__item contacts__item--bold contacts__item--blue"
+                >
+                  пн-вс: 09:00-20:00
+                </li>
+                <li class="contacts__item">обед: 14:00-14:30</li>
+              </ul>
             </div>
-        </header>
-        <div class="content">
-            <div class="container content__container">
-                <aside class="aside">
-                    <nav class="navigation">
-                        <ul class="aside__list">
-                                <li class="aside__item aside__item--active">
-                                        <a href="index.html" class="aside__link aside__link--main">Главная</a>
-                                    </li>
-                                    <li class="aside__item">
-                                        <a href="reviews.html" class="aside__link aside__link--feed">Отзывы</a>
-                                    </li>
-                                    <li class="aside__item aside__item--active">
-                                        <a href="" class="aside__link aside__link--crew">Экипаж</a>
-                                    </li>
-                        </ul>
-                    </nav>
-                </aside>
-                <main class="main">
-                    <ul class="breadcrumbs">
-                        <li class="breadcrumbs__item">
-                            <a href="index.html" class="breadcrumbs__link">Главная</a>
-                        </li>
-                        <li class="breadcrumbs__item breadcrumbs__item--active">Отзывы</li>
-                    </ul>
-                    <section class="reviews">
-                            <h2 class="title">Последние новости</h2>
-                            <ul class="reviews__list">
-                                <li class="reviews__item">
-                                    <div class="reviews__image">
-                                       <img src="images/news/planeflying.png" alt="Фото самолёта" class="news__image-picture"> 
-                                    </div>                                
-                                    <div class="news__content">
-                                        <div class="news__date">12.10.2016</div>
-                                        <h3 class="news__title">Ночные перелёты дешевле!</h3>
-                                        <p class="news__description">
-                                            Летящий в ночном небе самолет - зрелище загадочное и романтическое. Крылатая машина величественно плывет в вышине,
-                                            мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми, спешащими далеко-далеко по очень важным делам.
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="pagination">
-                                <div class="pagination__display">
-                                        Страница 1 из 7
-                                    </div>
-                                     <div class="pagination__paginator">
-                                        <a href="" class="pagination__button pagination__button-previous"><</a>
-                                        <ul class="pagination__list">
-                                            <li class="pagination__item pagination__item--current">
-                                                <a href="" class="pagination__link">1</a>
-                                            </li>
-                                            <li class="pagination__item">
-                                                <a href="" class="pagination__link">2</a>
-                                            </li>
-                                            <li class="pagination__item">
-                                                <a href="" class="pagination__link">3</a>
-                                            </li>
-                                            <li class="pagination__item">
-                                                <a href="" class="pagination__link">4</a>
-                                            </li>
-                                            <li class="pagination__item">
-                                                <a href="" class="pagination__link">5</a>
-                                            </li>
-                                            <li class="pagination__item">
-                                                <a href="" class="pagination__link">6</a>
-                                            </li>
-                                            <li class="pagination__item">
-                                                <a href="" class="pagination__link">7</a>
-                                            </li>
-                                        </ul>
-                                        <a href="" class="pagination__button pagination__button-next">></a>
-                                    </div>
-                            </div>
-                    </section>
-                    <div class="booking">
-                        <p>Вопросы по бронировантию билетов в нашей авиакомпании принимаются.
-                            Для этого можно оставить <a href="" class="booking__link">заявку на сайте</a>
-                            или же позвонить по номеру круглосуточной поддержки 
-                            <a href="mailto:+78000039210" class="booking__phone">8 (800) 00-392-10</a>
-                        </p>
-                    </div>
-                    <section class="form">
-                        <h2 class="title">Появились вопросы?</h2>
-                        <form action="">
-                            <div class="form__row">
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="container content__container">
+          <aside class="aside aside--inner-page">
+            <nav class="navigation">
+              <ul class="aside__list">
+                <li class="aside__item">
+                  <a href="index.html" class="aside__link aside__link--main"
+                    >Главная</a
+                  >
+                </li>
+                <li class="aside__item aside__item--active">
+                  <a href="reviews.html" class="aside__link aside__link--feed"
+                    >Отзывы</a
+                  >
+                </li>
+                <li class="aside__item">
+                  <a href="crew.html" class="aside__link aside__link--crew"
+                    >Экипаж</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </aside>
+          <main class="main">
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs__item">
+                <a href="index.html" class="breadcrumbs__link">Главная</a>
+              </li>
+              <li class="breadcrumbs__item breadcrumbs__item--active">
+                Отзывы
+              </li>
+            </ul>
+            <section class="reviews">
+              <h2 class="title">Отзывы</h2>
+              <ul class="reviews__list">
+                <li class="reviews__item">
+                  <div class="reviews__image">
+                    <img
+                      src="images/reviews/girl.png"
+                      alt="Фото самолёта"
+                      class="reviews__image-picture"
+                    />
+                  </div>
+                  <div class="reviews__content">
+                    <div class="reviews__date">12.10.2016</div>
+                    <h3 class="reviews__title">Ночные перелёты дешевле!</h3>
+                    <p class="reviews__description">
+                      Летящий в ночном небе самолет - зрелище загадочное и
+                      романтическое. Крылатая машина величественно плывет в
+                      вышине, мерцая разноцветными огнями, и почему-то кажется,
+                      что она наполнена удивительными людьми, спешащими
+                      далеко-далеко по очень важным делам.
+                    </p>
+                  </div>
+                </li>
+                <li class="reviews__item">
+                  <div class="reviews__image">
+                    <img
+                      src="images/reviews/man.jpg"
+                      alt="Фото самолёта"
+                      class="reviews__image-picture"
+                    />
+                  </div>
+                  <div class="reviews__content">
+                    <div class="reviews__date">12.10.2016</div>
+                    <h3 class="reviews__title">Ночные перелёты дешевле!</h3>
+                    <p class="reviews__description">
+                      Летящий в ночном небе самолет - зрелище загадочное и
+                      романтическое. Крылатая машина величественно плывет в
+                      вышине, мерцая разноцветными огнями, и почему-то кажется,
+                      что она наполнена удивительными людьми, спешащими
+                      далеко-далеко по очень важным делам.
+                    </p>
+                  </div>
+                </li>
+                <li class="reviews__item">
+                  <div class="reviews__image">
+                    <img
+                      src="images/reviews/airplanet.png"
+                      alt="Фото самолёта"
+                      class="reviews__image-picture"
+                    />
+                  </div>
+                  <div class="reviews__content">
+                    <div class="reviews__date">12.10.2016</div>
+                    <h3 class="reviews__title">Ночные перелёты дешевле!</h3>
+                    <p class="reviews__description">
+                      Летящий в ночном небе самолет - зрелище загадочное и
+                      романтическое. Крылатая машина величественно плывет в
+                      вышине, мерцая разноцветными огнями, и почему-то кажется,
+                      что она наполнена удивительными людьми, спешащими
+                      далеко-далеко по очень важным делам.
+                    </p>
+                  </div>
+                </li>
+                <li class="reviews__item">
+                  <div class="reviews__image">
+                    <img
+                      src="images/reviews/grandma.png"
+                      alt="Фото самолёта"
+                      class="reviews__image-picture"
+                    />
+                  </div>
+                  <div class="reviews__content">
+                    <div class="reviews__date">12.10.2016</div>
+                    <h3 class="reviews__title">Ночные перелёты дешевле!</h3>
+                    <p class="reviews__description">
+                      Летящий в ночном небе самолет - зрелище загадочное и
+                      романтическое. Крылатая машина величественно плывет в
+                      вышине, мерцая разноцветными огнями, и почему-то кажется,
+                      что она наполнена удивительными людьми, спешащими
+                      далеко-далеко по очень важным делам.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <div class="pagination">
+                <div class="pagination__display">
+                  Страница 1 из 7
+                </div>
+                <div class="pagination__paginator">
+                  <a
+                    href=""
+                    class="pagination__button pagination__button-previous"
+                    ><</a
+                  >
+                  <ul class="pagination__list">
+                    <li class="pagination__item pagination__item--current">
+                      <a href="" class="pagination__link">1</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="" class="pagination__link">2</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="" class="pagination__link">3</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="" class="pagination__link">4</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="" class="pagination__link">5</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="" class="pagination__link">6</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="" class="pagination__link">7</a>
+                    </li>
+                  </ul>
+                  <a href="" class="pagination__button pagination__button-next">></a>
+                </div>
+              </div>
+            </section>
+        </div>
+            <div class="booking">
+                <div class="container booking__container">
+                        <p>
+                                Вопросы по бронировантию билетов в нашей авиакомпании
+                                принимаются. Для этого можно оставить
+                                <a href="" class="booking__link booking__link--underlined">заявку на сайте</a>
+                                или же позвонить по номеру круглосуточной поддержки
+                                <a href="mailto:+78000039210" class="booking__link"
+                                  >8 (800) 00-392-10</a
+                                >
+                              </p>
+                </div>
+              
+            </div>
+              <div class="container form__container">
+                  <section class="form-section">
+                      <div class="form">
+                            <h2 class="title">Оставить отзыв</h2>
+                            <form action="">
+                              <div class="form__row">
                                 <label for="" class="form__block">
-                                    <div class="form__title">Ваше имя</div>
-                                    <input type="text" name="" id="" class="form__input">
+                                  <div class="form__title">Ваше имя</div>
+                                  <input type="text" name="" id="" class="form__input" />
                                 </label>
                                 <label for="" class="form__block">
-                                    <div class="form__title">Ссылка на Ваш профиль вк</div>
-                                    <input type="url" name="" id="" class="form__input">
+                                  <div class="form__title">Ссылка на профиль VK</div>
+                                  <input type="url" name="" id="" class="form__input" />
                                 </label>
-                            </div>
-                            <div class="form__row">
+                              </div>
+                              <div class="form__row">
                                 <label for="" class="form__block">
-                                    <div class="form__title">Текст отзыва</div>
-                                    <input type="textarea" name="" id="" class="form__input">
+                                  <div class="form__title">Текст отзыва</div>
+                                  <input type="textarea" name="" id="" class="form__input" />
                                 </label>
-                            </div>
-                            <div class="form__row">
+                              </div>
+                              <div class="form__row">
                                 <div class="question">
-                                    <div class="form__question-title">
-                                        Отображать фото?
+                                  <div class="form__question-title">
+                                    Отображать фото?
+                                  </div>
+                                  <div class="form__question-options">
+                                    <div for="" class="option">
+                                      <input
+                                        type="radio"
+                                        name="show-photo"
+                                        id="show-photo_yes"
+                                        class="option__radio"
+                                      />
+                                      <label for="show-photo_yes" class="option__name"
+                                        >Да</label
+                                      >
                                     </div>
-                                    <div class="form__question-options">
-                                        <div for="" class="option">
-                                            <input type="radio" name="show-photo" id="show-photo_yes" class="option__radio">
-                                            <label for="show-photo_yes" class="option__name">Да</label>
-                                        </div>
-                                        <div for="" class="option">
-                                            <input type="radio" name="show-photo" id="show-photo_no" class="option__radio">
-                                            <label for="show-photo_no" class="option__name">Нет</label>
-                                        </div>
+                                    <div for="" class="option">
+                                      <input
+                                        type="radio"
+                                        name="show-photo"
+                                        id="show-photo_no"
+                                        class="option__radio"
+                                      />
+                                      <label for="show-photo_no" class="option__name"
+                                        >Нет</label>
                                     </div>
+                                  </div>
                                 </div>
                                 <div class="form__buttons">
-                                    <button class="submit">Отправить</button>
+                                  <button class="submit">Отправить</button>
                                 </div>
-                            </div>
-                        </form>
-                    </section>
-                </main>
+                              </div>
+                            </form>
+</div>
+                  </section>                  
+              </div>
             </div>
-        </div>
-        <footer class="footer">
-            <div class="container footer__container">
-                <p class="copyright">
-                    Сделано с любовью и старанием на курсе 
-                    «HTML + CSS» в <a href="" class="copyright__link">LoftSchool</a>.
-                    Автор работы: <a href="" class="copyright__link copyright__link--bold copyright__link--underlined">Прохладов Вадим</a>                        
-                </p>
-                <a href="" class="logo">
-                    <img src="images/logo/main.png" width="120px" height="36px" alt="Логотип Airplanet" class="logo__image">
+          </main>
+      </div>
+      <footer class="footer">
+        <div class="container footer__container">
+          <p class="copyright">
+            Сделано с любовью и старанием на курсе «HTML + CSS» в
+            <a href="" class="copyright__link">LoftSchool</a>. Автор работы:
+            <a
+              href=""
+              class="copyright__link copyright__link--bold copyright__link--underlined"
+              >Прохладов Вадим</a
+            >
+          </p>
+          <a href="" class="logo">
+            <img
+              src="images/logo/main.png"
+              width="120px"
+              height="36px"
+              alt="Логотип Airplanet"
+              class="logo__image"
+            />
+          </a>
+          <div class="socials">
+            <h4 class="socials__title">Наши социальные сети</h4>
+            <ul class="socials__list">
+              <li class="socials__item">
+                <a href="" class="socials__link socials__link--vk">
+                  <img
+                    src="images/socials/vk.png"
+                    alt=""
+                    class="socials__link-image"
+                  />
                 </a>
-                <div class="socials">
-                    <h4 class="socials__title">Наши социальные сети</h4>
-                    <ul class="socials__list">
-                        <li class="socials__item">
-                            <a href="" class="socials__link socials__link--vk">
-                                <img src="images/socials/vk.png" alt="" class="socials__link-image">
-                            </a>
-                        </li>
-                        <li class="socials__item ">
-                            <a href="" class="socials__link socials__link--fb">
-                                <img src="images/socials/fb.png" alt="" class="socials__link-image">
-                            </a>
-                        </li>
-                        <li class="socials__item">
-                             <a href="" class="socials__link socials__link--gplus">
-                                <img src="images/socials/google.png" alt="" class="socials__link-image">
-
-                             </a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="" class="socials__link socials__link--tw">
-                                <img src="images/socials/twitter.png" alt="" class="socials__link-image">
-                            </a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="" class="socials__link socials__link--mail">
-                                <img src="images/socials/mail.png" alt="" class="socials__link-image">
-                            </a>
-                        </li>
-                    </ul>
-                </div>                
-            </div>
-        </footer>
+              </li>
+              <li class="socials__item ">
+                <a href="" class="socials__link socials__link--fb">
+                  <img
+                    src="images/socials/fb.png"
+                    alt=""
+                    class="socials__link-image"
+                  />
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="" class="socials__link socials__link--gplus">
+                  <img
+                    src="images/socials/google.png"
+                    alt=""
+                    class="socials__link-image"
+                  />
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="" class="socials__link socials__link--tw">
+                  <img
+                    src="images/socials/twitter.png"
+                    alt=""
+                    class="socials__link-image"
+                  />
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="" class="socials__link socials__link--mail">
+                  <img
+                    src="images/socials/mail.png"
+                    alt=""
+                    class="socials__link-image"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>

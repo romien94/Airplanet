@@ -1,18 +1,11 @@
 .footer {
-    background-color: #4b73b5;
-  }
-  
-  .footer__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 75px;
-    padding: 0 20px;
-  }
-  
+  background-color: #4b73b5;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  padding: 0 20px;
+}

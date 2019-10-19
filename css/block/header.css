@@ -1,11 +1,15 @@
 .header {
   background-color: #4b73b5;
+  margin-bottom: 13px;
+}
+
+.header--inner-page {
+  margin-bottom: 45px;
 }
 
 .header__container {
   display: flex;
-  padding: 20px 20px;
+  padding: 18px 20px;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 13px;
 }

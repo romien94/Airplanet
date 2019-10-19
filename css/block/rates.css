@@ -11,14 +11,14 @@
 }
   
   .rates__item {
-    width: 248px;
+    width: 28%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     border: 1px solid transparent;
     border-radius: 5px;
     align-items: center;
-    padding: 40px 21px;
+    padding: 40px 23px;
     margin-right: 20px;
   }
   
@@ -39,13 +39,16 @@
   
   .rates__title {
     font-size: 11px;
-    font-family: robotobold, Arial, sans-serif;
+    font-family: 'roboto';
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2.64px;
     margin-bottom: 21px;
   }
   
   .rates__description {
+    font-family: 'roboto';
+    font-weight: 300;
     text-align: center;
     line-height: 1.67;
     margin-bottom: 8px;
@@ -55,6 +58,8 @@
    display: flex;
    flex-direction: column;
    margin-bottom: 21px;
+   font-family: 'roboto';
+   font-weight: 300;
   }
   
   .rates__features-item {
@@ -80,10 +85,11 @@
   }
   
   .rates__price {
-    font-family: 'robotolight', Arial, sans-serif;
+    font-family: 'roboto';
     font-size: 54px;
-    font-weight: normal;
-  }
+    font-weight: 500;
+  }  
+  
   
   .rates__currency {
     font-size: 30px;
