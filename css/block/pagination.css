@@ -18,7 +18,6 @@
 .pagination__list {
   display: flex;
   align-items: center;
-  margin: 0 20px;
 }
 
 .pagination__item {
@@ -30,6 +29,7 @@
   text-decoration: none;
   color: grey;
   font-family: robotobold, Arial, sans-serif;
+  margin: 0 15px;
 }
 
 .pagination__link {
@@ -42,7 +42,7 @@
   font-family: 'roboto';
   font-weight: bold;
   color: #221f1f;
-  border-radius: 15%;
+  border-radius: 15%;  
 }
 
 .pagination__link:hover {
