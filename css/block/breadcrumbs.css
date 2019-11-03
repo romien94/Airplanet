@@ -5,6 +5,7 @@
   margin-bottom: 16px;
 }
 
+
 .breadcrumbs--italic {
   font-style: italic;
 }
@@ -15,5 +16,10 @@
 }
 
 .breadcrumbs__link {
-  color: #1c5bc3;  
+  color: #1c5bc3;
+  transition: .8s;
+}
+
+.breadcrumbs__link:hover {
+  text-decoration: none;
 }

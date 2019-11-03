@@ -1,0 +1,9 @@
+.logo {
+  width: 120px;
+  height: 36px;
+  background: url("/Airplanet/images/sprites/icons.png") -10px -10px;
+}
+
+.logo:hover {
+  background: url("/Airplanet/images/sprites/icons.png") -10px -66px;
+}

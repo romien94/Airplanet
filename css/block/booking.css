@@ -20,3 +20,8 @@
 .booking__link--underlined {
   text-decoration: underline;
 }
+
+.booking__link:hover {
+  opacity: .8;
+  transition: .8s;
+}

@@ -1,20 +1,26 @@
+.crew {
+    margin-bottom: 14px;
+}
+
 .crew .title {
     margin-bottom: 45px;
 }
 
 .crew__title {
-    margin-bottom: 45px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .crew__reviews {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 14px;
 }
 
 .crew__reviews-item {
-    width: 30%;
+    width: 29%;
     margin-bottom: 45px;
 }
 
@@ -31,7 +37,7 @@
 }
 
 .crew__avatar {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .avatar {
@@ -73,17 +79,13 @@
     text-align: center;
 }
 
-.crew__title {
-    margin-bottom: 10px;
-}
-
 .crew__position {
     font-weight: bold;
     color: #4b73b5;
-    margin-bottom: 13px;
+    margin-bottom: 8px;
 }
 
 .crew__content p {
-    line-height: 1.2;
+    line-height: 21px;
 }
   

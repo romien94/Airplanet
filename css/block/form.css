@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.form-section {
+  margin-bottom: 50px;
+}
+
 .form-content {
   padding: 0 18%;
 }
@@ -21,6 +25,10 @@
   display: flex;
   margin-bottom: 15px;
   align-items: center;
+}
+
+.form__row:last-child {
+  justify-content: space-between; 
 }
 
 .form__block {
@@ -52,6 +60,11 @@
 
 .option {
   margin-right: 15px;
+  position: relative;
+}
+
+.option__radio {
+  display: none;
 }
 
 .option__name:before {
@@ -64,8 +77,58 @@
   border-radius: 50%;
   border: 1px solid rgb(200, 200, 200);
   margin-right: 5px;
+  transition: .8s;
 }
 
-.option__radio:checked .option {
-  background-color: red;
+.option__radio:checked ~ .option__name:before {
+  border-color: #1c5bc3;
+  transition: .8s;
+}
+
+.option__radio:checked ~ .option__name:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #1c5bc3;
+  border-radius: 50%;
+  top: 7px;
+  left: 7px;
+}
+
+.form__question-title {
+  margin-bottom: 15px;
+}
+
+.submit {
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color:  #1c5bc3;
+  transition: .8s;
+  border-radius: 3px;
+}
+
+.submit:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 17px;
+  height: 17px;
+  background: url("/Airplanet/images/index/main.png") center center/contain no-repeat;
+  margin-left: 10px;
+  transition: .8s;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: #1c5bc3;
+  color: white;
+}
+
+.submit:hover:after {
+  background: url("/Airplanet/images/index/main--hover.png") center center/contain no-repeat;
 }

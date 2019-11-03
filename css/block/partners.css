@@ -1,9 +1,9 @@
 .partners {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .partners .title {
-    margin-bottom: 57px;
+    margin-bottom: 44px;
 }
 
 .partners__list {
@@ -19,10 +19,73 @@
     margin-right: 15%;
     flex: 1;
     margin-bottom: 64px;
+    justify-content: space-around;
 }
 
 .partners__link {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+    background: center center / contain no-repeat;
+}
+
+.partners__link--bmp {
+    width: 159px;
+    height: 30px;
+    background: url("/Airplanet/images/partners/css_sprites.png") -10px -262px;
+}
+
+.partners__link--bmp:hover {
+    background: url("/Airplanet/images/partners/css_sprites.png") -352px -10px;
+}
+
+.partners__link--tetra {
+    width: 161px;
+    height: 64px;
+    background: url("/Airplanet/images/partners/css_sprites.png") -10px -10px;
+}
+
+.partners__link--tetra:hover {
+    background: url("/Airplanet/images/partners/css_sprites.png") -10px -94px;
+}
+
+.partners__link--siberian {
+    width: 133px;
+    height: 64px;
+    background: url("/Airplanet/images/partners/css_sprites.png") -10px -178px;
+}
+
+.partners__link--siberian:hover {
+    background: url("/Airplanet/images/partners/css_sprites.png") -163px -178px;
+}
+
+.partners__link--oneair {
+    width: 141px; 
+    height: 63px;
+    background: url("/Airplanet/images/partners/css_sprites.png") -191px -10px;
+}
+
+.partners__link--oneair:hover {
+    background: url("/Airplanet/images/partners/css_sprites.png") -191px -93px;
+}
+
+.partners__link--bingair {
+    width: 46px; height: 64px;
+    background: url("/Airplanet/images/partners/css_sprites.png") -454px -60px;;
+}
+
+.partners__link--bingair:hover {
+    background: url("/Airplanet/images/partners/css_sprites.png") -454px -144px;
+}
+
+.partners__link--ural {
+    width: 82px; 
+    height: 64px;
+    background: url("/Airplanet/images/partners/css_sprites.png") -352px -60px;
+}
+
+.partners__link--ural:hover {
+    background: url("/Airplanet/images/partners/css_sprites.png") -352px -144px;
+}
+
+
+.logo--partners {
+    margin-left: -7%;
 }

@@ -38,30 +38,31 @@
 .aside__link:before {
   display: flex;
   content: "";
-  width: 20px;
+  width: 23px;
   height: 20px;
   background: center center / contain no-repeat;
   margin-right: 15px;
 }
 
 .aside__link--main:before {
-  background-image: url("/Airplanet/images/aside/main.png") ;
+  background: url("/Airplanet/images/sprites/icons.png") -90px -122px;
 }
 
 .aside__link--feed:before {
-  background-image: url("/Airplanet/images/aside/feed.png");
+  background: url("/Airplanet/images/sprites/icons.png") -10px -122px;
 }
 
 .aside__link--feed:hover:before,
 .aside__item--active .aside__link--feed:before {
-  background-image: url("/Airplanet/images/aside/feed--hover.png");
+  background: url("/Airplanet/images/sprites/icons.png") -50px -122px;
 }
 
 .aside__link--crew:before {
-  background-image: url("/Airplanet/images/aside/crew.png");
+  background: url("/Airplanet/images/sprites/icons.png") -150px -10px;
 }
 
 .aside__link--crew:hover:before,
 .aside__item--active .aside__link--crew:before {
-  background-image: url("/Airplanet/images/aside/crew--hover.png");
+  background: url("/Airplanet/images/sprites/icons.png") -150px -48px;
+  background: contain;
 }
