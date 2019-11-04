@@ -23,6 +23,20 @@
   font-family: robotolight, Arial, sans-serif;
   font-size: 14px;
 }
+
+.contacts__hours:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: transparent;
+  height: 20px;
+  width: 100%;
+}
+
+.contacts__hours:hover .contacts__hours-title {
+  opacity: 1;
+  transition: .7s;
+}
   
 .contacts__list {
   display: none;
@@ -34,9 +48,9 @@
   background-color: white;
   border-radius: 3px;
   box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
-  right: 0;
-  bottom: -88px;
+  top: 100%;
   animation: appear 1s;
+  margin-top: 20px;
 }
   
 .contacts__hours:hover .contacts__list {

@@ -54,9 +54,13 @@
   display: flex;
 }
 
-/* .option__radio {
-  display: none;
-} */
+.form__review {
+  border-radius: 3px;
+  border: none;
+  resize: none;
+  padding: 10px;
+  height: 90px;
+}
 
 .option {
   margin-right: 15px;
